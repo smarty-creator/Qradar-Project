@@ -89,7 +89,7 @@ button {
       };
       $http({
     	  method: 'POST',
-    	  url: '/WatsonIoTQRadarIntegration/SimulateEvent',
+    	  url: '/SimulateEvent',
     	  data: dataObject
     	}).then(function successCallback(response) {
     		 $scope.PostDataResponse = response;
