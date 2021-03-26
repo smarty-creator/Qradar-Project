@@ -67,7 +67,7 @@ button {
       alert(JSON.stringify(dataObject));
       $http({
     	  method: 'POST',
-    	  url: '/WatsonIoTQRadarIntegration/ConnectWatsonIoTQRadar',
+    	  url: '/ConnectWatsonIoTQRadar',
     	  data: dataObject
     	}).then(function successCallback(response) {
     		 $scope.PostDataResponse = response;
@@ -80,7 +80,7 @@ button {
     }
     
     $scope.next = function(){   
-        window.location = ('/WatsonIoTQRadarIntegration/simulate.html');
+        window.location = ('/simulate.html');
     }
 
  });
