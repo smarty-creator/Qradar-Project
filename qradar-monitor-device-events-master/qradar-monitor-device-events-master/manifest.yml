@@ -1,0 +1,6 @@
+---
+applications:
+- name: WatsonIoTQRadarIntegration
+  random-route: true
+  memory: 256M
+  path: target/WatsonIoTQRadarIntegration.war
